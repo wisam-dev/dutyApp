@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" type="text/css" href="src/css/main.css" />
+    <script src="src/js/app.js" type="module" defer></script>
+    <title>Duty App</title>
+  </head>
+  <body>
+    <header>
+      <h1>TO DO</h1>
+    </header>
+    <section class="section-missions">
+      <form action="">
+        <fieldset>
+          <input
+            type="text"
+            placeholder="Create new task"
+            name="mision-input"
+            class="mission-input"
+            autocomplete="off"
+          />
+          <input
+            type="submit"
+            value="Create task"
+            class="btn--submit"
+            disabled
+          />
+        </fieldset>
+      </form>
+      <div class="missions--container">
+        <div class="tasks--container"></div>
+        <div class="container--btns">
+          <span class="missions-amount">5 active tasks</span>
+          <div class="container--btns-sort">
+            <button class="btn--show-all">All</button>
+            <button class="btn--show-active">Active</button>
+            <button class="btn--show-completed">Completed</button>
+          </div>
+          <span class="btn--clear-completed">Clear completed</span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

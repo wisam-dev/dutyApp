@@ -1,0 +1,15 @@
+:root {
+  --main-bg-color: #121212;
+  --color-surface: #252525;
+  --color-primary: #006e7f;
+  --color-disabled: #494949;
+
+  --color-text: #f2efee;
+  --color-placeholder: rgba(242, 239, 238, 0.8);
+
+  --box-shadow-surface: 7px 7px 15px -9px rgba(0, 0, 0, 0.4);
+
+  --text-shadow: 2px 1px 2px rgba(220, 220, 220, 0.8);
+
+  --transition: all ease 0.3s;
+}

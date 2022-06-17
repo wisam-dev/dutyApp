@@ -1,0 +1,15 @@
+{
+  "name": "dutyapp",
+  "version": "1.0.0",
+  "description": "Sample tp do web appliction",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Wisam",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}
